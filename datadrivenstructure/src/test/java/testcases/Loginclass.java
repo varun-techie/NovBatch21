@@ -40,6 +40,7 @@ public class Loginclass {
 		gw.getmyurl("chrome", "http://automationpractice.com/index.php");//excel read
 		
 		gw.click(pr.getobjects("signin"));//property
+		
 		gw.entertext(pr.getobjects("username"), "");
 		//gw.dropdown(locator, index);
 		
