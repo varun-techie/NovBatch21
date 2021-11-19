@@ -54,6 +54,7 @@ public class Loginclass {
 		System.out.println(myvalue);
 		System.out.println(myvalue);
 		String s="varun";
+		
 		int i=10;
 		
 	}
