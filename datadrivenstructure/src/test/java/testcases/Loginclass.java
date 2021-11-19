@@ -22,6 +22,7 @@ public class Loginclass {
 	
 	
 	Genericwrapper gw= new Genericwrapper();
+	
 	Propreader pr= new Propreader();
 	Loginmodule lm = new Loginmodule();
 	
@@ -49,7 +50,7 @@ public class Loginclass {
 	//dataprovider
 	@Test(dataProviderClass = Excelreader.class,dataProvider = "myownfile",enabled=false)
 	public void secondcase(String myvalue) {
-		
+		System.out.println(myvalue);
 		System.out.println(myvalue);
 		
 	}
