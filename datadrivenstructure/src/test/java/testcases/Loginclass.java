@@ -52,6 +52,8 @@ public class Loginclass {
 	public void secondcase(String myvalue) {
 		
 		System.out.println(myvalue);
+		String s="varun";
+		int i=10;
 		
 	}
 	
